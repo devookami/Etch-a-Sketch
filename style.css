@@ -1,0 +1,62 @@
+:root {
+    font-size: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem 5rem;
+    padding: 2rem 3rem;
+    font-size: 3.6rem;
+}
+body {
+    background-color: rgb(226, 226, 218);
+}
+
+.bigContainer {
+    height: 80rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 65rem;
+    width: 65rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.canvas {
+    border: 0.3rem solid rgb(126, 126, 113);
+    height: 50rem;
+    width: 50rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.canvas div{
+    height: 3.088rem;
+    width: 3.088rem;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.buttons button {
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.6rem;
+    padding: 1.2rem 2rem;
+    border: 0.1rem solid rgb(126, 126, 113);
+    border-radius: 1.5rem;
+}
